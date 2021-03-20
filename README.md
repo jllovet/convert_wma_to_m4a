@@ -58,9 +58,11 @@ Install ffmpeg, a low-level audio conversion utility.
 ## Usage
 
 Assuming you are in the directory that contains the script, you can run this command to perform the conversions.
+
 ```./convert_wma_to_m4a.sh .```
 
 Assuming that you don't have an `out` directory already created, you can run this to have the conversions happen silently. The conversion logs will be redirected to a file.
+
 ```./convert_wma_to_m4a.sh . > ./conversion_logs.txt 2>&1```
 
 Note: If you redirect the logs to a file like this, any prompts about overwriting files will not be displayed to the terminal. If you want those prompts to be displayed to you, then use the first usage example above.
