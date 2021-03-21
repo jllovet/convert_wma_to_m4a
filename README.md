@@ -51,7 +51,7 @@ Building on the example above, here is the expected directory structure after ru
 
 ## Setup
 
-Install ffmpeg, a low-level audio conversion utility.
+Install ffmpeg, a low-level audio conversion utility. On a Mac, you can use homebrew:
 
 ```brew install ffmpeg```
 
